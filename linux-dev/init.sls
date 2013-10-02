@@ -5,7 +5,7 @@ linux-dev-pkgs:
       - build-essential
       - git
       - subversion
-      - mecurial
+      - mercurial
     {% elif grains['os_family'] == 'RedHat' %}
     - pkgs:
       - rpm-build
