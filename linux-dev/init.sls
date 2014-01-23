@@ -1,6 +1,6 @@
-{% from "linux-dev/map.jinja" import map with context %}
+{% from "linux-dev/map.jinja" import linux_dev_pkgs with context %}
 
 linux-dev-pkgs:
   pkg.installed:
-    - pkgs: {{linux_dev_pkgs.pkgs|json }}
+    - pkgs: {{ linux_dev_pkgs.pkgs|json }}
 
