@@ -1,9 +1,20 @@
 linux-dev
 =========
 
-Development files for linux
+Development packages for linux.
 
-linux-dev
----------
+.. note::
 
-Install core development packages
+    See the full `Salt Formulas installation and usage instructions
+    <http://docs.saltstack.com/topics/conventions/formulas.html>`_.
+
+Available States
+================
+
+.. contents::
+    :local:
+
+``linux-dev``
+-------------
+
+Install core development packages.
