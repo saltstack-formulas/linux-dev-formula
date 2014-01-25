@@ -1,4 +1,5 @@
-linux-dev
+=========
+linux-dev 
 =========
 
 Development packages for linux.
@@ -8,7 +9,7 @@ Development packages for linux.
     See the full `Salt Formulas installation and usage instructions
     <http://docs.saltstack.com/topics/conventions/formulas.html>`_.
 
-Available States
+Available states
 ================
 
 .. contents::
